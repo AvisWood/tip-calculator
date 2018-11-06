@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    color: forestgreen;
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+
+#tipCal{
+    text-align: center;
+
+    
+}
+.jumbotron{
+    background-image: url(money.jpg);
+    background-size: 100%;
+    color:forestgreen;
+    border: solid;
+    border-color: forestgreen;
+}
+
+#title{
+    margin-left: 300px;
+    font-size: 50px;
+}
+
+#totalTip{
+    text-align: center;
+    margin: 50px;
+
+
+}

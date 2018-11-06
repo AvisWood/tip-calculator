@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+ <div class="jumbotron">
+     <div id="title">
+    <p>Tip Calculator<br>Always tip those who serve!</p>
+    </div> 
+</div>
+<div id="tipCal">
+    <form>
+        <h2>Bill Total?</h2><br>
+        <input id="totalBill" type="text"><br><br>
+        <h2>Tip Percent?</h2><br>
+        <select id="tipPercent">
+            <option value="0.25">25% Great Service!</option>
+            <option value="0.2">20% Good Service!</option>
+            <option value="0.15">15% Subpar Service!</option>
+            <option value="0.1">10% Not Good Service!</option>
+        </select><br><br>
+        <h2>Number of People?</h2><br>
+        <input id="numPeople" type="text"><br><br>
+    </form>
+    <input type="submit" onclick="calculate()"">
+</div>
+<div class="jumbotron"></div>
+<div id="totalTip">
+    <h2>The Tip Per Person:</h2>
+    <h3 id="eachTip"><sup>$</sup>0.00</h3>
+    <h2>The Total Bill With Tip:</h2>
+    <h3 id="fullBill"><sup>$</sup>0.00</h3>
+</div>
+<div>
+
+</div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="scripts.js" type="text/javascript"></script>
+  </body>
+</html>
+
